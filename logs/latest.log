@@ -1,139 +1,50 @@
-[13:33:39] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:33:39] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13:33:39] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:33:39] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:33:39] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13:33:39] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:33:39] [main/INFO]: Reloading ResourceManager: Default
-[13:33:40] [Worker-Main-2/INFO]: Loaded 7 recipes
-[13:33:41] [Worker-Main-2/INFO]: Loaded 927 advancements
-[13:33:43] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[13:33:43] [Server thread/INFO]: Loading properties
-[13:33:43] [Server thread/INFO]: Default game type: SURVIVAL
-[13:33:43] [Server thread/INFO]: Generating keypair
-[13:33:43] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:33:43] [Server thread/INFO]: Using epoll channel type
-[13:33:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:33:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:33:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:33:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:33:43] [Server thread/INFO]: Preparing level "world"
-[13:33:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:33:46] [Server thread/INFO]: Preparing spawn area: 0%
-[13:33:46] [Server thread/INFO]: Preparing spawn area: 0%
-[13:33:46] [Server thread/INFO]: Preparing spawn area: 0%
-[13:33:46] [Server thread/INFO]: Preparing spawn area: 0%
-[13:33:46] [Server thread/INFO]: Preparing spawn area: 0%
-[13:33:46] [Server thread/INFO]: Preparing spawn area: 0%
-[13:33:46] [Server thread/INFO]: Preparing spawn area: 0%
-[13:33:50] [Worker-Main-2/INFO]: Preparing spawn area: 58%
-[13:33:50] [Worker-Main-2/INFO]: Preparing spawn area: 58%
-[13:33:50] [Worker-Main-2/INFO]: Preparing spawn area: 58%
-[13:33:50] [Worker-Main-2/INFO]: Preparing spawn area: 58%
-[13:33:50] [Worker-Main-2/INFO]: Preparing spawn area: 58%
-[13:33:50] [Worker-Main-2/INFO]: Preparing spawn area: 58%
-[13:33:50] [Worker-Main-2/INFO]: Preparing spawn area: 58%
-[13:33:50] [Worker-Main-2/INFO]: Preparing spawn area: 68%
-[13:33:51] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[13:33:51] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[13:33:52] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[13:33:52] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[13:33:53] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[13:33:53] [Server thread/INFO]: Preparing spawn area: 84%
-[13:33:54] [Worker-Main-2/INFO]: Preparing spawn area: 86%
-[13:33:54] [Server thread/INFO]: Preparing spawn area: 87%
-[13:33:55] [Worker-Main-2/INFO]: Preparing spawn area: 89%
-[13:33:55] [Worker-Main-2/INFO]: Preparing spawn area: 92%
-[13:33:56] [Server thread/INFO]: Preparing spawn area: 93%
-[13:33:56] [Worker-Main-2/INFO]: Preparing spawn area: 95%
-[13:33:57] [Server thread/INFO]: Preparing spawn area: 98%
-[13:33:57] [Server thread/INFO]: Preparing spawn area: 99%
-[13:33:57] [Server thread/INFO]: Time elapsed: 14137 ms
-[13:33:57] [Server thread/INFO]: Done (14.239s)! For help, type "help"
-[13:34:04] [Server thread/INFO]: bravo68web[/127.0.0.1:41322] logged in with entity id 63 at (-199.5, 63.0, 149.5)
-[13:34:04] [Server thread/INFO]: bravo68web joined the game
-[13:35:24] [Server thread/INFO]: Made bravo68web a server operator
-[13:35:28] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[13:35:28] [Server thread/INFO]: /ping<--[HERE]
-[13:35:34] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[13:35:34] [Server thread/INFO]: ping<--[HERE]
-[13:35:40] [Server thread/INFO]: /advancement (grant|revoke)
-[13:35:40] [Server thread/INFO]: /attribute <target> <attribute> (base|get|modifier)
-[13:35:40] [Server thread/INFO]: /ban <targets> [<reason>]
-[13:35:40] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[13:35:40] [Server thread/INFO]: /banlist [ips|players]
-[13:35:40] [Server thread/INFO]: /bossbar (add|get|list|remove|set)
-[13:35:40] [Server thread/INFO]: /clear [<targets>]
-[13:35:40] [Server thread/INFO]: /clone <begin> <end> <destination> [filtered|masked|replace]
-[13:35:40] [Server thread/INFO]: /data (get|merge|modify|remove)
-[13:35:40] [Server thread/INFO]: /datapack (disable|enable|list)
-[13:35:40] [Server thread/INFO]: /debug (report|start|stop)
-[13:35:40] [Server thread/INFO]: /defaultgamemode (adventure|creative|spectator|survival)
-[13:35:40] [Server thread/INFO]: /deop <targets>
-[13:35:40] [Server thread/INFO]: /difficulty [easy|hard|normal|peaceful]
-[13:35:40] [Server thread/INFO]: /effect (clear|give)
-[13:35:40] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[13:35:40] [Server thread/INFO]: /execute (align|anchored|as|at|facing|if|in|positioned|rotated|run|store|unless)
-[13:35:40] [Server thread/INFO]: /experience (add|query|set)
-[13:35:40] [Server thread/INFO]: /fill <from> <to> <block> [destroy|hollow|keep|outline|replace]
-[13:35:40] [Server thread/INFO]: /forceload (add|query|remove)
-[13:35:40] [Server thread/INFO]: /function <name>
-[13:35:40] [Server thread/INFO]: /gamemode (adventure|creative|spectator|survival)
-[13:35:40] [Server thread/INFO]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks|universalAnger)
-[13:35:40] [Server thread/INFO]: /give <targets> <item> [<count>]
-[13:35:40] [Server thread/INFO]: /help [<command>]
-[13:35:40] [Server thread/INFO]: /kick <targets> [<reason>]
-[13:35:40] [Server thread/INFO]: /kill [<targets>]
-[13:35:40] [Server thread/INFO]: /list [uuids]
-[13:35:40] [Server thread/INFO]: /locate (bastion_remnant|buried_treasure|desert_pyramid|endcity|fortress|igloo|jungle_pyramid|mansion|mineshaft|monument|nether_fossil|ocean_ruin|pillager_outpost|ruined_portal|shipwreck|stronghold|swamp_hut|village)
-[13:35:40] [Server thread/INFO]: /locatebiome <biome>
-[13:35:40] [Server thread/INFO]: /loot (give|insert|replace|spawn)
-[13:35:40] [Server thread/INFO]: /me <action>
-[13:35:40] [Server thread/INFO]: /msg <targets> <message>
-[13:35:40] [Server thread/INFO]: /op <targets>
-[13:35:40] [Server thread/INFO]: /pardon <targets>
-[13:35:40] [Server thread/INFO]: /pardon-ip <target>
-[13:35:40] [Server thread/INFO]: /particle <name> [<pos>]
-[13:35:40] [Server thread/INFO]: /playsound <sound> (ambient|block|hostile|master|music|neutral|player|record|voice|weather)
-[13:35:40] [Server thread/INFO]: /recipe (give|take)
-[13:35:40] [Server thread/INFO]: /reload
-[13:35:40] [Server thread/INFO]: /replaceitem (block|entity)
-[13:35:40] [Server thread/INFO]: /save-all [flush]
-[13:35:40] [Server thread/INFO]: /save-off
-[13:35:40] [Server thread/INFO]: /save-on
-[13:35:40] [Server thread/INFO]: /say <message>
-[13:35:40] [Server thread/INFO]: /schedule (clear|function)
-[13:35:40] [Server thread/INFO]: /scoreboard (objectives|players)
-[13:35:40] [Server thread/INFO]: /seed
-[13:35:40] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
-[13:35:40] [Server thread/INFO]: /setidletimeout <minutes>
-[13:35:40] [Server thread/INFO]: /setworldspawn [<pos>]
-[13:35:40] [Server thread/INFO]: /spawnpoint [<targets>]
-[13:35:40] [Server thread/INFO]: /spectate [<target>]
-[13:35:40] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (under|<respectTeams>)
-[13:35:40] [Server thread/INFO]: /stop
-[13:35:40] [Server thread/INFO]: /stopsound <targets> [*|ambient|block|hostile|master|music|neutral|player|record|voice|weather]
-[13:35:40] [Server thread/INFO]: /summon <entity> [<pos>]
-[13:35:40] [Server thread/INFO]: /tag <targets> (add|list|remove)
-[13:35:40] [Server thread/INFO]: /team (add|empty|join|leave|list|modify|remove)
-[13:35:40] [Server thread/INFO]: /teammsg <message>
-[13:35:40] [Server thread/INFO]: /teleport (<destination>|<location>|<targets>)
-[13:35:40] [Server thread/INFO]: /tell -> msg
-[13:35:40] [Server thread/INFO]: /tellraw <targets> <message>
-[13:35:40] [Server thread/INFO]: /time (add|query|set)
-[13:35:40] [Server thread/INFO]: /title <targets> (actionbar|clear|reset|subtitle|times|title)
-[13:35:40] [Server thread/INFO]: /tm -> teammsg
-[13:35:40] [Server thread/INFO]: /tp -> teleport
-[13:35:40] [Server thread/INFO]: /trigger <objective> [add|set]
-[13:35:40] [Server thread/INFO]: /w -> msg
-[13:35:40] [Server thread/INFO]: /weather (clear|rain|thunder)
-[13:35:40] [Server thread/INFO]: /whitelist (add|list|off|on|reload|remove)
-[13:35:40] [Server thread/INFO]: /worldborder (add|center|damage|get|set|warning)
-[13:35:40] [Server thread/INFO]: /xp -> experience
-[13:36:41] [Server thread/INFO]: <bravo68web> aw
-[13:37:59] [Server thread/INFO]: [bravo68web: Set own game mode to Creative Mode]
-[13:39:15] [Server thread/INFO]: bravo68web lost connection: Disconnected
-[13:39:15] [Server thread/INFO]: bravo68web left the game
-[13:40:09] [Server thread/INFO]: bravo68web[/127.0.0.1:41362] logged in with entity id 789 at (-209.63140570431244, 62.0, 141.27306486466404)
-[13:40:09] [Server thread/INFO]: bravo68web joined the game
-[13:41:44] [Server thread/INFO]: bravo68web has made the advancement [Monster Hunter]
+[19:09:44] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:09:45] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19:09:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:09:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:09:45] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19:09:45] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:09:45] [main/INFO]: Reloading ResourceManager: Default
+[19:09:46] [Worker-Main-2/INFO]: Loaded 7 recipes
+[19:09:46] [Worker-Main-2/INFO]: Loaded 927 advancements
+[19:09:48] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[19:09:48] [Server thread/INFO]: Loading properties
+[19:09:48] [Server thread/INFO]: Default game type: SURVIVAL
+[19:09:48] [Server thread/INFO]: Generating keypair
+[19:09:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:09:49] [Server thread/INFO]: Using epoll channel type
+[19:09:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:09:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:09:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:09:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:09:49] [Server thread/INFO]: Preparing level "pixal-verse"
+[19:09:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:09:52] [Server thread/INFO]: Preparing spawn area: 0%
+[19:09:52] [Server thread/INFO]: Preparing spawn area: 0%
+[19:09:52] [Server thread/INFO]: Preparing spawn area: 0%
+[19:09:52] [Server thread/INFO]: Preparing spawn area: 0%
+[19:09:52] [Server thread/INFO]: Preparing spawn area: 0%
+[19:09:52] [Server thread/INFO]: Preparing spawn area: 0%
+[19:09:52] [Server thread/INFO]: Preparing spawn area: 0%
+[19:09:55] [Worker-Main-2/INFO]: Preparing spawn area: 45%
+[19:09:55] [Worker-Main-2/INFO]: Preparing spawn area: 45%
+[19:09:55] [Worker-Main-2/INFO]: Preparing spawn area: 45%
+[19:09:55] [Worker-Main-2/INFO]: Preparing spawn area: 45%
+[19:09:55] [Worker-Main-2/INFO]: Preparing spawn area: 45%
+[19:09:55] [Worker-Main-2/INFO]: Preparing spawn area: 45%
+[19:09:56] [Worker-Main-2/INFO]: Preparing spawn area: 45%
+[19:09:56] [Server thread/INFO]: Preparing spawn area: 45%
+[19:09:56] [Worker-Main-2/INFO]: Preparing spawn area: 91%
+[19:09:57] [Worker-Main-2/INFO]: Preparing spawn area: 91%
+[19:09:57] [Worker-Main-2/INFO]: Preparing spawn area: 91%
+[19:09:58] [Server thread/INFO]: Preparing spawn area: 91%
+[19:09:58] [Worker-Main-2/INFO]: Preparing spawn area: 93%
+[19:09:59] [Server thread/INFO]: Preparing spawn area: 95%
+[19:09:59] [Server thread/INFO]: Preparing spawn area: 96%
+[19:10:00] [Worker-Main-2/INFO]: Preparing spawn area: 99%
+[19:10:00] [Server thread/INFO]: Time elapsed: 11209 ms
+[19:10:00] [Server thread/INFO]: Done (11.353s)! For help, type "help"
+[19:14:59] [Server thread/INFO]: bravo68web[/127.0.0.1:40994] logged in with entity id 236 at (69.14873142910056, 69.0, 127.94004729405324)
+[19:14:59] [Server thread/INFO]: bravo68web joined the game
+[19:16:17] [Server thread/INFO]: bravo68web lost connection: Disconnected
+[19:16:17] [Server thread/INFO]: bravo68web left the game
